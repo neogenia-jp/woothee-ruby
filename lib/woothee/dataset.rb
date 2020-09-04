@@ -69,6 +69,9 @@ module Woothee::DataSet
   obj = {:label => 'YaBrowser', :name => 'Yandex Browser', :type => :browser}
   obj[:vendor] = 'Yandex'
   DATASET[obj[:label]] = obj
+  obj = {:label => 'SamsungBrowser', :name => 'SamsungBrowser', :type => :browser}
+  obj[:vendor] = 'Samsung'
+  DATASET[obj[:label]] = obj
   obj = {:label => 'Win', :name => 'Windows UNKNOWN Ver', :type => :os}
   obj[:category] = :pc
   DATASET[obj[:label]] = obj
